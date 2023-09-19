@@ -5,9 +5,8 @@ public class Main {
         Boss boss = new Boss(700, 70);
         boss.setDamage(70);
         boss.setHealth(700);
-        boss.weapon.setTypeOfWeapon(WeaponType.CHEMICAL);
-        System.out.println(boss.info());
-        boss.weapon.setNameOfWeapon("VX"); //химическое оружие
+        boss.weapon.setTypeOfWeapon(WeaponType.FIREARMS);
+        boss.weapon.setNameOfWeapon("AWP");
         System.out.println(boss.info());
     }
 }
