@@ -7,5 +7,7 @@ public class Main {
         boss.setHealth(700);
         boss.weapon.setTypeOfWeapon(WeaponType.CHEMICAL);
         System.out.println(boss.info());
+        boss.weapon.setNameOfWeapon("VX"); //химическое оружие
+        System.out.println(boss.info());
     }
 }

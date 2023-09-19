@@ -2,6 +2,9 @@ package org.example;
 
 public class Weapon {
     private WeaponType typeOfWeapon;
+    private String  nameOfWeapon;
+
+
 
     public WeaponType getTypeOfWeapon() {
         return typeOfWeapon;
@@ -11,4 +14,11 @@ public class Weapon {
         this.typeOfWeapon = typeOfWeapon;
     }
 
+    public String getNameOfWeapon() {
+        return nameOfWeapon;
+    }
+
+    public void setNameOfWeapon(String nameOfWeapon){
+        this.nameOfWeapon = nameOfWeapon;
+    }
 }
